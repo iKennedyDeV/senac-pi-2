@@ -1,0 +1,39 @@
+.pedido{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin-top: 1em;
+}
+.pedido_img{
+    width: 50% ;
+    height: 50%;
+    background-color: var(--verde-medio);
+    border-radius: 100px;
+
+}
+.pedido_titulo{
+    color: var(--preto);
+    font-family:var(--fonte-jomhuria);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.pedido_texto{
+    color: var(--preto);
+    text-align:center;
+    font-family:var(--fonte-karla);
+    font-size: 20px;
+    font-weight: 400;
+    width: 70%;
+
+}
+.pedido_historico{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cinza);
+    padding:40% 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0;
+}

@@ -1,0 +1,25 @@
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Jomhuria&family=Karla&display=swap");
+@import url(reset.css);
+@import url(inicial.css);
+@import url(busca.css);
+@import url(pessoal.css);
+@import url(pedidos.css);
+
+
+
+:root{
+   --azul:#1d4eff;
+   --verde-claro:#00FE19;
+   --cinza:#D9D9D9;
+   --preto:#000;
+   --branco:#fff;
+   --verde-medio:#B0E3B5;
+   --fonte-karla:"karla";
+   --fonte-jomhuria: "jomhuria";
+}
+
+body{
+   width: 43vh;
+}

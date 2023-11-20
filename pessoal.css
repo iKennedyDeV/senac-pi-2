@@ -1,0 +1,52 @@
+.perfil{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.pessoal{
+    margin-bottom: 2em;
+}
+
+.perfil_foto {
+    width: 70px;
+    height: 70px;
+    background-color: var(--verde-medio);
+    border: 1px solid var(--preto);
+    border-radius: 50px;
+    margin: 0 1em;
+}
+.textos{
+    text-align: justify;
+    width:75%;
+}
+.perfil_nome {
+    color: var(--preto);
+    text-align: center;
+    font-family: var(--fonte-jomhuria);
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.opções_titulo {
+    color: var(--preto);
+    font-family: var(--fonte-jomhuria);
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.opções_texto {
+    color: var(--preto);
+    font-family: var(--fonte-karla);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.opções_hr{
+  width: 90%;
+  color: var(--preto);
+}
+.opções{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

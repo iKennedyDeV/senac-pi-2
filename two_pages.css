@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Karla&display=swap');
+@import url(/styles/reset.css);
+
+:root{
+   --azul:#1d4eff;
+   --verde-claro:#00FE19;
+   --cinza:#D9D9D9;
+   --preto:#000;
+   --branco:#fff;
+   --verde-medio:#B0E3B5;
+   --fonte-karla:"karla";
+   --fonte-jomhuria: "jomhuria";
+}
+body{
+    background-color: var(--azul); 
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+.container_baixo{
+  display: flex;
+  flex-direction: column; 
+  text-align: center; 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0 0 0;
+    padding: 1em;
+}
+.rodape{
+   font-family: var(--fonte-karla);
+   color: var(--branco);    
+   text-align: center;
+   margin-top: 1em;
+   
+}
+
+.container_titulo{
+    font-family: var(--fonte-jomhuria);
+    font-weight: 400;
+    font-size: 50px;
+    color: var(--branco);
+    -webkit-text-stroke: 0.7px var(--preto);
+    text-align: center;
+}
+
+.container_label{
+    font-family: var(--fonte-jomhuria);
+    font-weight: 400;
+    font-size: 45px;
+    color: var(--branco);
+    -webkit-text-stroke: 0.7px var(--preto);
+}
+.container_link{
+    font-family: var(--fonte-jomhuria);
+    font-weight: 400;
+    font-size: 50px;
+    text-decoration: none;
+    color:var(--branco);
+    -webkit-text-stroke: 0.7px var(--preto);
+    background-color: var(--cinza);
+    padding: 4px 40px;
+    border-radius: 5px;
+    margin: 0 70px 0 70px
+   
+}
+.letra_inicial{
+    color: var(--verde-claro);
+}
+.container_checkbox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.container_input{
+    background-color: var(--cinza);
+    border-radius:5px;
+    height: 2.5em;
+    box-shadow: 0 1px 1px 0 var(--preto);
+    width: 100%;
+    
+}
+
+.container_baixo_texto{
+    font-family: var(--fonte-karla);
+    font-size: 29px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: var(--branco);
+
+}
+.container_input_checkbox{
+   width: 30px;
+   
+}
+.container_img{
+   width:  100%;
+}
+
