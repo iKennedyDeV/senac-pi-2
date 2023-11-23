@@ -1,9 +1,9 @@
 <h2>Integrantes do Grupo</h2>
-Ingrid Couto Rosin 
-Renan kenedy da Silva 
-Lorenzzo Batista 
-Bruno Chaves Gomes Alves 
-Gabriel Fernando Favarim
+<p>Ingrid Couto Rosin </p>
+<p>Renan kenedy da Silva </p>
+<p>Lorenzzo Batista </p>
+<p>Bruno Chaves Gomes Alves </p>
+<p>Gabriel Fernando Favarim</p>
 
 
 
