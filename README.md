@@ -1,3 +1,12 @@
+<h2>Integrantes do Grupo</h2>
+Ingrid Couto Rosin 
+Renan kenedy da Silva 
+Lorenzzo Batista 
+Bruno Chaves Gomes Alves 
+Gabriel Fernando Favarim
+
+
+
 <H2>Tela Login</H2>
 Ao iniciar o aplicativo, o usuário é direcionado a uma tela de login ou cadastro.
 <H2>Inicial</H2>
